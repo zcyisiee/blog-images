@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 简单渐变背景 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6A98F0" />
+      <stop offset="100%" stop-color="#4B6CB7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- 文字 -->
+  <g transform="translate(200, 200)">
+    <text x="0" y="-40" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">我是</text>
+    <text x="0" y="20" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">一个</text>
+    <text x="0" y="80" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">图片例子</text>
+  </g>
+</svg>
